@@ -2,10 +2,6 @@
 
 ## Plots
 
-| ![](plots/pendulum_demo_results_plot_latency.svg) | ![](plots/pendulum_demo_results_plot_latency_hist.svg) |
-|---|---|
-| ![](plots/pendulum_demo_results_plot_minflt.svg) | ![](plots/pendulum_demo_results_plot_majflt.svg) |
-
 <table>
 <thead>
   <tr>

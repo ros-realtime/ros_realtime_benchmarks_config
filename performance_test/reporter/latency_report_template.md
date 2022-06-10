@@ -5,20 +5,13 @@
 
 ## Latency metrics
 
-<table>
-<thead>
-  <tr>
-    <th>{{ latency_mean_ms|safe }}</th>
-    <th>{{ latency_max_ms|safe }}</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>{{ latency_min_ms|safe }}</td>
-    <td>{{ latency_variance_ms|safe }}</td>
-  </tr>
-</tbody>
-</table>
+{{ latency_mean_ms|safe }}
+
+{{ latency_max_ms|safe }}
+
+{{ latency_min_ms|safe }}
+
+{{ latency_variance_ms|safe }}
 
 ## Sample metrics
 
@@ -26,17 +19,10 @@
 
 ## System metrics
 
-<table>
-<thead>
-  <tr>
-    <th>{{ minor_page_faults|safe }}}</th>
-    <th>{{ major_page_faults|safe }}</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>{{ cpu_usage|safe }}</td>
-    <td>{{ memory_usage|safe }}</td>
-  </tr>
-</tbody>
-</table>
+{{ minor_page_faults|safe }}
+
+{{ major_page_faults|safe }}
+
+{{ cpu_usage|safe }}
+
+{{ memory_usage|safe }}
