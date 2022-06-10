@@ -46,7 +46,7 @@ reports:
   report_compare_rmw__udp_waitset_prio90:
     report_title: report_compare_rmw__udp_waitset_prio90
     report_title: RMW comparison. UDP. Waitset. Priority 90.
-    template_name: ../latency_report_template.html
+    template_name: ../latency_report_template.md
     figures:
       - name: latency_mean_ms
         title: Mean latency over Time

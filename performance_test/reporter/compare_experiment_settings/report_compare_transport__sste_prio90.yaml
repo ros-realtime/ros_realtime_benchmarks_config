@@ -43,7 +43,7 @@ datasets:
 reports:
   report_compare_transport__sste_prio90:
     report_title: Transport comparison. Static Single Threaded Executor. Priority 90.
-    template_name: ../latency_report_template.html
+    template_name: ../latency_report_template.md
     figures:
       - name: latency_mean_ms
         title: Mean latency over Time

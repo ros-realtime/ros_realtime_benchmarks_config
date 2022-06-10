@@ -43,7 +43,7 @@ datasets:
 reports:
   report_compare_prio__intra_sste:
     report_title: Priority comparison. INTRA. Static Single Threaded Executor.
-    template_name: ../latency_report_template.html
+    template_name: ../latency_report_template.md
     figures:
       - name: latency_mean_ms
         title: Mean latency over Time
