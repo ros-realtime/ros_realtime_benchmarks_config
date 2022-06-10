@@ -16,7 +16,7 @@ mv pendulum_demo_results pendulum_demo_results.txt
 mkdir plots experiments
 mv pendulum_demo_results*.svg plots
 mv pendulum_demo_results*.txt experiments
-cp ~/ros_realtime_benchmarks_config/pendulum_demo/pendulum_results.html .
+cp ~/ros_realtime_benchmarks_config/pendulum_demo/pendulum_results.md .
 
 # Clean up
 rm analyze.py

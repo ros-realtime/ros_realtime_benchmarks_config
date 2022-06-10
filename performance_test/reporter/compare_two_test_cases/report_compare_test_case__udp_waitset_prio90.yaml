@@ -45,7 +45,7 @@ datasets:
 reports:
   report_compare__test_case1_name__test_case2_name__udp_waitset_prio90:
     report_title: UDP. Waitset. Priority 90.
-    template_name: ./latency_report_template.html
+    template_name: ../latency_report_template.md
     figures:
       - name: latency_mean_ms
         title: Mean latency over Time
