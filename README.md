@@ -2,6 +2,14 @@
 Configuration files for performance_test real-time benchmarks
 
 
+## cyclictest
+
+```bash
+cd my_experiments
+bash ~/ros_realtime_benchmarks_config/cyclictest/mklatencyplot.bash
+cp ~/ros_realtime_benchmarks_config/cyclictest/cyclictest_report.md .
+```
+
 ## pendulum_demo
 
 ```bash
