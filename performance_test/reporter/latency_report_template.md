@@ -26,3 +26,5 @@
 {{ cpu_usage|safe }}
 
 {{ memory_usage|safe }}
+
+{{ involuntary_context_switches|safe }}

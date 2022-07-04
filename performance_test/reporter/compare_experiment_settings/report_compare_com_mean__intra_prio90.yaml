@@ -182,3 +182,16 @@ reports:
           - dataset_sste
           - dataset_ste
           - dataset_waitset
+      - name: involuntary_context_switches
+        title: Involuntary context switches
+        x_axis_label: Time (seconds)
+        y_axis_label: Context switches
+        x_range: T_experiment
+        y_range: sys_tracker_ru_nivcsw
+        size:
+          width: 900
+          height: 540
+        datasets:
+          - dataset_sste
+          - dataset_ste
+          - dataset_waitset
